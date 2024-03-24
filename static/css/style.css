@@ -1,0 +1,48 @@
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.und-header {
+    color: gray;
+    padding-left: 20px;
+}
+
+div.cont {
+    display: flex;
+}
+
+.log {
+    text-align: center;
+}
+
+.table-logs {
+    padding: 0 3em 0 3em;
+    display: grid;
+    grid-column: inherit;
+}
+
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+    background-color: #dddddd;
+}
